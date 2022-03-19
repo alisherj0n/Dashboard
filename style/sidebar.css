@@ -1,3 +1,4 @@
 .sidebar {
-  background-color: var(--color-primary);
+  border-right: 1px solid var(--color-border);
+  height: 100vh;
 }
