@@ -1,0 +1,10 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.app-header,
+.main-nav,
+.sidebar .divider {
+  padding: 1.25rem 1.8rem;
+}
