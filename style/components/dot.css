@@ -1,0 +1,23 @@
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: var(--color-muted);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.success {
+  background-color: var(--color-success);
+}
+
+.dot.warning {
+  background-color: var(--color-warning);
+}
+
+.dot.primary {
+  background-color: var(--color-primary);
+}
+
+.dot.danger {
+  background-color: var(--color-danger);
+}

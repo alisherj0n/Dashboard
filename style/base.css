@@ -3,8 +3,18 @@ body {
   font-size: 14px;
 }
 
+body,
+a {
+  color: var(--color-muted);
+}
+
 .app-header,
-.main-nav,
-.sidebar .divider {
+.sidebar-navigation,
+.sidebar .divider,
+.projects-navigation {
   padding: 1.25rem 1.8rem;
+}
+
+button {
+  cursor: pointer;
 }

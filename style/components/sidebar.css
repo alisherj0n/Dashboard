@@ -1,0 +1,68 @@
+.sidebar {
+  border-right: 1px solid var(--color-border);
+  height: 100vh;
+}
+
+.sidebar-navigation {
+  list-style: none;
+}
+
+.sidebar-navigation .item {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.7rem 0;
+  border-radius: 6px;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.sidebar-navigation .item:hover {
+  color: var(--color-black);
+}
+
+.sidebar-navigation .item.active {
+  background-color: var(--color-primary-light);
+  color: var(--color-black);
+}
+
+.sidebar-navigation .icon {
+  font-size: 1.25rem;
+}
+
+.sidebar .divider {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sidebar .divider hr {
+  border-color: var(--color-border);
+  border-top-width: 0;
+}
+
+.projects-navigation .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.projects-navigation .heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.projects-navigation .add-project {
+  all: unset;
+  cursor: pointer;
+}
+
+.projects-navigation .nav {
+  padding: 0;
+}
+
+.projects-navigation .nav .item {
+  padding: 0.7rem;
+  margin: 0 -0.7rem;
+}
