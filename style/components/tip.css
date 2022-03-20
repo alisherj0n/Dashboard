@@ -1,0 +1,35 @@
+.tip {
+  background-color: var(--color-grey);
+  border-radius: 16px;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.tip .icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -3.5rem auto 0;
+  background: var(--color-grey);
+}
+
+.tip .icon i {
+  font-size: 1.5rem;
+  color: #fbcb18;
+}
+
+.tip .heading {
+  font-weight: 500;
+}
+
+.tip .text {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.tip .button {
+  width: 100%;
+}

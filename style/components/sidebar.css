@@ -1,6 +1,12 @@
 .sidebar {
   border-right: 1px solid var(--color-border);
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar > * {
+  padding: 1.25rem 1.8rem;
 }
 
 .sidebar-navigation {
@@ -13,8 +19,9 @@
   align-items: center;
   gap: 0.7rem;
   padding: 0.7rem 0;
-  border-radius: 6px;
-  transition: color 0.2s, background-color 0.2s;
+  border-radius: var(--transiton-duration);
+  transition: color var(--transiton-duration),
+    background-color var(--transiton-duration);
 }
 
 .sidebar-navigation .item:hover {
@@ -65,4 +72,8 @@
 .projects-navigation .nav .item {
   padding: 0.7rem;
   margin: 0 -0.7rem;
+}
+
+.sidebar-tip {
+  margin-top: auto;
 }
