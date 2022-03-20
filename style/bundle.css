@@ -3,10 +3,14 @@
 @import url(./normalize.css);
 @import url(./colors.css);
 @import url(./breakpoints.css);
+@import url(./fx.css);
 
 @import url(./base.css);
+@import url(./typography.css);
 @import url(./layout.css);
 
+@import url(./components/button.css);
 @import url(./components/dot.css);
 @import url(./components/app-header.css);
 @import url(./components/sidebar.css);
+@import url(./components/tip.css);
