@@ -14,3 +14,5 @@
 @import url(./components/app-header.css);
 @import url(./components/sidebar.css);
 @import url(./components/tip.css);
+
+@import url(./searchbar.css);

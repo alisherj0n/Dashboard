@@ -6,6 +6,11 @@
   padding: var(--header-padding);
 }
 
+.content .app-header {
+  --header-padding: 1rem 1.8rem;
+  padding: var(-header-padding);
+}
+
 .app-logo {
   width: 9rem;
 }
