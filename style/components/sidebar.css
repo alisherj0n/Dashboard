@@ -5,6 +5,10 @@
   flex-direction: column;
 }
 
+.sidebar > * {
+  padding: var(--padding-size);
+}
+
 .sidebar-navigation {
   list-style: none;
 }

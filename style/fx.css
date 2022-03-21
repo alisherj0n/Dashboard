@@ -1,4 +1,5 @@
 :root {
   --transiton-duration: 0.2s;
   --border-radius: 6px;
+  --padding-size: 1.25rem 1.8rem;
 }
