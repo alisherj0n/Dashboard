@@ -1,8 +1,5 @@
-:root {
-  --common-padding-size: 1.25rem 1.8rem;
-}
-
 .app {
+  --header-padding: 1.25rem 1.8rem;
   display: grid;
   grid-template-columns: 280px 1fr;
 }
