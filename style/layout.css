@@ -1,5 +1,5 @@
 .app {
-  --header-padding: 1.25rem 1.8rem;
+  --header-padding: 0.7rem 1.8rem;
   display: grid;
   grid-template-columns: 280px 1fr;
 }
