@@ -14,12 +14,11 @@
 }
 
 .sidebar-navigation .item {
-  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 0.7rem;
   padding: 0.7rem 0;
-  border-radius: var(--transiton-duration);
+  border-radius: var(--border-radius);
   transition: color var(--transiton-duration),
     background-color var(--transiton-duration);
 }
