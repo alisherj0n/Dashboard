@@ -7,3 +7,7 @@ body,
 a {
   color: var(--color-muted);
 }
+
+a {
+  text-decoration: none;
+}

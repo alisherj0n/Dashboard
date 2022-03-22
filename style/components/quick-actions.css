@@ -1,0 +1,9 @@
+.quick-actions {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.quick-actions .action {
+  font-size: 1.25rem;
+}
