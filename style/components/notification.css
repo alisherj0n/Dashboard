@@ -1,0 +1,9 @@
+.notification {
+  height: 6px;
+  width: 6px;
+  background-color: var(--color-danger);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  right: 2px;
+}
