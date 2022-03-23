@@ -1,14 +1,12 @@
-button,
 .button {
   cursor: pointer;
   padding: 0.6rem 1rem;
   background-color: #fff;
   border-color: transparent;
-  border-radius: var(--transiton-duration);
+  border-radius: var(--border-radius);
   transition: background-color var(--transiton-duration);
 }
 
-button:hover,
 .button:hover {
   background-color: #ececec;
 }
