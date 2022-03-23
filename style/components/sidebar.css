@@ -33,10 +33,6 @@
   color: var(--color-black);
 }
 
-.sidebar-navigation .icon {
-  font-size: 1.25rem;
-}
-
 .sidebar .divider {
   padding-top: 0;
   padding-bottom: 0;
@@ -61,6 +57,7 @@
 }
 
 .projects-navigation .add-project {
+  --Iconsax-Size: 0.9rem;
   all: unset;
   cursor: pointer;
 }

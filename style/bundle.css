@@ -1,10 +1,9 @@
-@import url(./iconsax-css/style.css);
-
 @import url(./normalize.css);
 @import url(./colors.css);
 @import url(./breakpoints.css);
 @import url(./fx.css);
 
+@import url(./icons.css);
 @import url(./base.css);
 @import url(./typography.css);
 @import url(./layout.css);

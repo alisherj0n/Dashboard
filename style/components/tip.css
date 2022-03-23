@@ -1,4 +1,7 @@
 .tip {
+  --Iconsax-Size: 1.5rem;
+  --Iconsax-Color: #fbcb18;
+
   background-color: var(--color-grey);
   border-radius: 16px;
   text-align: center;
@@ -12,13 +15,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: -3.5rem auto 0;
+  margin: -2.5rem auto 0;
   background: var(--color-grey);
-}
-
-.tip .icon i {
-  font-size: 1.5rem;
-  color: #fbcb18;
 }
 
 .tip .heading {
