@@ -1,0 +1,9 @@
+.quick-actions {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.action {
+  position: relative;
+}
