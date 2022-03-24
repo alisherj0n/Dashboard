@@ -1,0 +1,38 @@
+.mini-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.mini-profile .user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.mini-profile .username {
+  font-size: 0.8rem;
+  color: var(--color-black);
+  white-space: nowrap;
+}
+
+.mini-profile .country {
+  font-size: 0.7rem;
+  white-space: nowrap;
+  margin: 0;
+  align-self: end;
+  color: var(--color-muted);
+}
+
+.mini-profile .avatar {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.mini-profile .button {
+  padding: 0;
+}
+
+.mini-profile .button:hover {
+  background-color: transparent;
+}

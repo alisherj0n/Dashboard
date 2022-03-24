@@ -1,6 +1,6 @@
 .searchbar {
   padding-left: 1rem;
-  width: 100%;
+  width: 35%;
   border-radius: var(--border-radius);
   background-color: var(--color-grey);
   display: flex;

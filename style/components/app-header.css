@@ -29,3 +29,9 @@
   top: 0;
   right: 0;
 }
+
+.profile-actions {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
