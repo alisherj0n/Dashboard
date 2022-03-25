@@ -4,35 +4,34 @@
   gap: 0.6rem;
 }
 
-.mini-profile .user-info {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
+.user-info {
+  max-width: 6rem;
+}
+
+.user-info > * {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .mini-profile .username {
-  font-size: 0.8rem;
   color: var(--color-black);
-  white-space: nowrap;
+  margin-bottom: 0.2rem;
 }
 
 .mini-profile .country {
-  font-size: 0.7rem;
-  white-space: nowrap;
-  margin: 0;
-  align-self: end;
   color: var(--color-muted);
+  text-align: end;
 }
 
 .mini-profile .avatar {
   width: 2rem;
+  height: 2rem;
   border-radius: 50%;
+  object-fit: cover;
 }
 
-.mini-profile .button {
-  padding: 0;
-}
-
-.mini-profile .button:hover {
-  background-color: transparent;
+.dropdown {
+  all: unset;
+  cursor: pointer;
 }
