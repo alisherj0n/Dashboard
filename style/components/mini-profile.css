@@ -6,6 +6,7 @@
 
 .user-info {
   max-width: 6rem;
+  text-align: end;
 }
 
 .user-info > * {
@@ -16,12 +17,7 @@
 
 .mini-profile .username {
   color: var(--color-black);
-  margin-bottom: 0.2rem;
-}
-
-.mini-profile .country {
-  color: var(--color-muted);
-  text-align: end;
+  margin-bottom: 0.1rem;
 }
 
 .mini-profile .avatar {
@@ -31,7 +27,8 @@
   object-fit: cover;
 }
 
-.dropdown {
+.mini-profile-dropdown-toggle {
+  --Iconsax-Size: 1rem;
   all: unset;
   cursor: pointer;
 }
