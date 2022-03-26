@@ -5,7 +5,11 @@ h4,
 h5,
 h6 {
   color: var(--color-black);
-  margin-top: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 h4 {
