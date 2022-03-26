@@ -1,5 +1,24 @@
-.page-header {
+.page-header,
+.page-header .heading {
   display: flex;
   align-items: center;
+  gap: 1rem;
+}
+
+.page-header {
+  justify-content: space-between;
+}
+
+.page-header .invite-users {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  background: transparent;
+  color: var(--color-primary);
+}
+
+.page-header .users {
+  display: flex;
   gap: 1rem;
 }
