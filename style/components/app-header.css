@@ -4,7 +4,7 @@
   align-items: center;
   gap: 1rem;
   justify-content: space-between;
-  padding: var(--header-padding);
+  padding: var(--container-padding);
   height: 4.1rem;
 }
 

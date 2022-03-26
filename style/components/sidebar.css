@@ -6,7 +6,7 @@
 }
 
 .sidebar > * {
-  padding: var(--header-padding);
+  padding: var(--container-padding);
 }
 
 .sidebar-navigation {
