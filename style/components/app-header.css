@@ -15,7 +15,7 @@
 .app-header .sidebar-toggle {
   all: unset;
   cursor: pointer;
-  padding: 0.2rem 0 0.5rem 0.2rem;
+  padding: 0.2rem;
   line-height: 1;
 }
 
@@ -43,6 +43,16 @@
 
   .app-header .profile-actions {
     gap: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .app-header {
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    /* padding: 0 1rem; */ /* Why this parameter does the same as above?  
+    I thought that giving this parameteres would give zero padding top and bottom and given padding to right and left */
   }
 }
 
