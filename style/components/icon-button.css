@@ -2,7 +2,6 @@
   --Iconsax-Size: 1rem;
   --Iconsax-Color: var(--color-primary);
   background: var(--color-primary-light);
-  padding: 0.2rem;
   border-radius: var(--border-radius);
   border: none;
   cursor: pointer;
@@ -11,4 +10,10 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.icon-button.small {
+  --Iconsax-Size: 0.9rem;
+  width: 18px;
+  height: 18px;
 }
