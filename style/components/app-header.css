@@ -47,6 +47,10 @@
 }
 
 @media (max-width: 768px) {
+  .app-header {
+    height: auto;
+  }
+
   .app-header .searchbar {
     display: none;
   }
