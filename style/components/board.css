@@ -9,3 +9,9 @@
   display: flex;
   gap: 1rem;
 }
+
+.board-actions .vertical-divider {
+  width: 1px;
+  height: 30px;
+  background: var(--color-muted);
+}
