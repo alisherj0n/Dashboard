@@ -1,0 +1,32 @@
+.board-card {
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
+
+.board-card .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.board-card .heading {
+  margin-bottom: 0.5rem;
+}
+
+.board-card .description {
+  margin-bottom: 1rem;
+}
+
+.board-card .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.board-card .footer .info {
+  --Iconsax-Size: 1rem;
+  display: flex;
+  gap: 0.8rem;
+}
