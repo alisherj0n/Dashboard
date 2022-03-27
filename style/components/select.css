@@ -1,0 +1,10 @@
+select {
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-image: url(../../images/select-arrow.png);
+  background-size: 0.715rem;
+  padding-right: 2rem;
+  border-color: var(--color-muted);
+  color: var(--color-muted);
+}
