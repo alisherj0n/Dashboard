@@ -1,4 +1,5 @@
-.board-actions {
+.board-actions,
+.right-side-actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,4 +15,55 @@
   width: 1px;
   height: 30px;
   background: var(--color-muted);
+}
+
+.board .lists {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.board .lists .list {
+  background-color: var(--color-grey);
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.board .lists .list > .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.board .lists .list > .header .heading {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.board .lists .list .divider {
+  height: 2px;
+  width: 100%;
+  background: var(--color-muted);
+  border-radius: var(--border-radius);
+}
+
+.board .lists .list .divider.primary {
+  background-color: var(--color-primary);
+}
+
+.board .lists .list .divider.warning {
+  background-color: var(--color-warning);
+}
+
+.board .lists .list .divider.success {
+  background-color: var(--color-success);
+}
+
+/* --breakpoint-sm */
+@media (max-width: 786px) {
+  .board .board-actions .right-side-actions > *:not(:last-child) {
+    display: none;
+  }
 }
