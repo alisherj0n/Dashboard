@@ -8,6 +8,7 @@
 .page-header {
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 1.5rem;
 }
 
 .page-header .invite-users {
