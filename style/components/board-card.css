@@ -4,19 +4,34 @@
   padding: 1rem;
 }
 
+.board-card > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
 .board-card .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
-}
-
-.board-card .heading {
-  margin-bottom: 0.5rem;
 }
 
 .board-card .description {
   margin-bottom: 1rem;
+}
+
+.board-card .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.7rem;
+}
+
+.board-card .images .image {
+  height: 5rem;
+  object-fit: cover;
+}
+
+.board-card .image {
+  width: 100%;
+  border-radius: var(--border-radius);
 }
 
 .board-card .footer {
