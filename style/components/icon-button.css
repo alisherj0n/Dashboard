@@ -1,7 +1,6 @@
 .icon-button {
   --Iconsax-Size: 1rem;
-  --Iconsax-Color: var(--color-primary);
-  background: var(--color-primary-light);
+  background: transparent;
   border-radius: var(--border-radius);
   border: none;
   cursor: pointer;
@@ -16,4 +15,24 @@
   --Iconsax-Size: 0.9rem;
   width: 18px;
   height: 18px;
+}
+
+.icon-button.primary {
+  --Iconsax-Color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.icon-button.warning {
+  --Iconsax-Color: var(--color-warning);
+  background: var(--color-warning-light);
+}
+
+.icon-button.danger {
+  --Iconsax-Color: var(--color-danger);
+  background: var(--color-danger-light);
+}
+
+.icon-button.success {
+  --Iconsax-Color: var(--color-success);
+  background: var(--color-success-light);
 }
