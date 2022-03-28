@@ -23,6 +23,18 @@
   gap: 1rem;
 }
 
+.board .lists > * {
+  grid-column: center;
+}
+
+.lists .wrapper {
+  grid-column: center-start / -1;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  overflow: auto;
+}
+
 .board .lists .list {
   background-color: var(--color-grey);
   border-radius: 16px;
@@ -68,5 +80,9 @@
 @media (max-width: 786px) {
   .board .board-actions .right-side-actions > *:not(:last-child) {
     display: none;
+  }
+
+  .board .lists .list {
+    width: 20rem;
   }
 }
