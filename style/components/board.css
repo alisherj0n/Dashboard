@@ -22,11 +22,9 @@
 }
 
 .board .wrapper {
-  grid-column: center-start / -1;
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
   gap: 1rem;
-  overflow: auto;
+  overflow-x: auto;
 }
 
 .board .lists .list {
