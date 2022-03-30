@@ -19,14 +19,20 @@
 
 .board .lists {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.board .wrapper {
+  display: flex;
   gap: 1rem;
+  overflow-x: auto;
 }
 
 .board .lists .list {
   background-color: var(--color-grey);
   border-radius: 16px;
   padding: 1rem;
+  flex-shrink: 0;
+  max-width: 20rem;
 }
 
 .board .lists .list > *:not(:last-child) {
@@ -65,7 +71,7 @@
 }
 
 /* --breakpoint-sm */
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   .board .board-actions .right-side-actions > *:not(:last-child) {
     display: none;
   }
